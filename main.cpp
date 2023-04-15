@@ -16,8 +16,12 @@ using namespace std;
         z = a * x * x + b * y;
     cout << z << endl;
 }
-    z = a*x - b*y*y;
-    cout << z <<endl;
+    else{
+        z = a*x - b*y*y;
+        cout << z <<endl;
+              
+    }
+
 
 
     return 0;
