@@ -8,7 +8,7 @@ using namespace std;
 
     cin >> a >> b >> x >> y;
 
-    if (x < 0 && y >= 0) {
+    if (x < 0 && y > 0) {
         z = a * x - b * y;
         cout << z << endl;
 
