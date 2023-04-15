@@ -4,21 +4,20 @@ using namespace std;
 
  int main() {
 
-    float a, b, x,y, z1, z2, z3;
+    float a, b, x,y;
 
     cin >> a >> b >> x >> y;
 
     if (x < 0 && y > 0){
-        z1 = a * x - b * y;
-        cout << z1 << endl;
+        
+        cout << a * x - b * y << endl;
 
     } else if (x >= 0 && y <= 0){
-        z2 = a * x * x + b * y;
-    cout << z2 << endl;
+       
+    cout <<a * x * x + b * y << endl;
     }
     else{
-        z3 = a*x - b*y*y;
-        cout << z3 <<endl;
+        cout << a*x - b*y*y <<endl;
     }
     return 0;
 }
