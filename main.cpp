@@ -10,7 +10,7 @@ using namespace std;
 
     if (x < 0 && y > 0){
         z1 = a * x - b * y;
-        cout << z3 << endl;
+        cout << z1 << endl;
 
     } else if (x >= 0 && y <= 0){
         z2 = a * x * x + b * y;
